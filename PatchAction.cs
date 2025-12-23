@@ -4,7 +4,7 @@ namespace bps_patch;
 /// Defines the four types of patch operations used in BPS format.
 /// See: https://github.com/blakesmith/beat/blob/master/doc/bps.txt
 /// </summary>
-enum PatchAction : byte {
+public enum PatchAction : byte {
 	/// <summary>
 	/// Copy bytes from source file at current position (identical data)
 	/// </summary>
