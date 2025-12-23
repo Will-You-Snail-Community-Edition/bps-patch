@@ -5,7 +5,7 @@ namespace bps_patch;
 /// Uses modern .NET performance features: ArrayPool, Span&lt;T&gt;, stackalloc, and buffered I/O.
 /// See: https://github.com/blakesmith/beat/blob/master/doc/bps.txt
 /// </summary>
-static class Decoder {
+public static class Decoder {
 	// Minimum valid BPS patch size (header + sizes + footer)
 	public const int MIN_PATCH_SIZE = 19;
 
