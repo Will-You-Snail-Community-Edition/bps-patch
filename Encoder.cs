@@ -8,7 +8,7 @@ namespace bps_patch;
 /// Uses modern .NET performance features: ArrayPool, Span&lt;T&gt;, stackalloc, and buffered I/O.
 /// See: https://github.com/blakesmith/beat/blob/master/doc/bps.txt
 /// </summary>
-static class Encoder {
+public static class Encoder {
 	// 80KB buffer for optimal file I/O performance
 	// See: https://learn.microsoft.com/en-us/dotnet/api/system.io.bufferedstream
 	private const int BUFFER_SIZE = 81920;
